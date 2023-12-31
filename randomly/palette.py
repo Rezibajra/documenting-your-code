@@ -1,8 +1,9 @@
 import matplotlib.pyplot as plt
 import requests
+from matplotlib.figure import Figure
 
 
-def plot_palette(model):
+def plot_palette(model: str) -> "Figure":
     if model not in {"default", "ui"}:
         raise ValueError(f"{model} is not supported.")
 

@@ -3,6 +3,20 @@ from requests.exceptions import RequestException
 
 
 def generate_random_fact(output_format, language):
+    """_summary_
+
+    Args:
+        output_format (_type_): _description_
+        language (_type_): _description_
+
+    Raises:
+        ValueError: _description_
+        ValueError: _description_
+        RequestException: _description_
+
+    Returns:
+        _type_: _description_
+    """
     if language not in {"en", "de"}:
         raise ValueError(f"{language} is not supported.")
 
