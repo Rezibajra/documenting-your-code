@@ -76,12 +76,7 @@ use_binder_button                : true  # If 'true', add a binder button for in
 # Launch button settings
 launch_buttons:
   notebook_interface        : classic  # The interface interactive links will activate ["classic", "jupyterlab"]
-  binderhub_url             : "https://mybinder.org"  # The URL for your BinderHub.
-  binder_repo_base          : "https://github.com/"  # The site on which the textbook repository is hosted
-  binder_repo_org           : "jupyter"  # The username or organization that owns this repository
-  binder_repo_name          : "jupyter-book"  # The name of the repository on the web
-  binder_repo_branch        : "main"  # The branch on which your textbook is hosted.
-  binderhub_interact_text   : "Interact"  # The text that interact buttons will contain.
+  binderhub_url             : ""  # The URL of the BinderHub (e.g., https://mybinder.org)
   jupyterhub_url            : ""  # The URL of the JupyterHub (e.g., https://datahub.berkeley.edu)
   thebe                     : false  # Add a thebe button to pages (requires the repository to run on Binder)
   colab_url                 : "" # The URL of Google Colab (https://colab.research.google.com)
